@@ -34,7 +34,8 @@ void loop() {
         btn = digitalRead(6);
         if(btn == HIGH) {
             for (int k = 0; k < 7; k++)
-                digitalWrite(pins[k], Display[i][k]);}
+                digitalWrite(pins[k], Display[i][k]);
+        }
         else{
             for (int j = 0; j < 7; j++)
                 digitalWrite(pins[j], 1);  
